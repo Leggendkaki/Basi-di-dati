@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="it" lang="it">
+
+<!-- formChoice.html Form con input di scelta (senza gestore) -->
+
+<head>
+  <title>Form con input di scelta</title>
+</head>
+
+<body>
+
+<form method="get"  action="decode.php">
+  <fieldset>
+    <legend>Prima form senza gestore</legend>
+  
+    <select name="nome">
+      <option>---</option>
+      <option>A-H</option>
+      <option>I-Z</option>
+    </select>
+    <br /><br />
+    
+    
+    Provincia<br />
+    <label for="provVE">VE</label>
+    <input type="radio" id="provVE" name="prov" value="VE" />
+    &nbsp; &nbsp;
+    <label for="provPD">PD</label>
+    <input type="radio" id="provPD" name="prov" value="PD" />
+    <br /><br />
+    
+    <label for="hatutor">Ha un tutor</label>
+    <input type="checkbox" id="hatutor" name="tutor[]" value="HAS" />
+    &nbsp; &nbsp;
+    <label for="etutor">&Egrave; tutor</label>
+    <input type="checkbox" id="etutor" name="tutor[]" value="IS" /> 
+    <br /><br />
+    
+    <input type="submit" value="Invia" />
+    <input type="reset" value="cancella" />
+  </fieldset>
+</form>
+</body>
+</html>

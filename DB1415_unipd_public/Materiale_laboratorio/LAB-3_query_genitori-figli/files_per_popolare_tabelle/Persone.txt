@@ -1,0 +1,23 @@
+Persone
+
+ Id  Nome       Reddito  Eta   Sesso 
+-------------------------------------
+ A1  Aldo            25   15     M      
+ A2  Andrea          27   21     M      
+ A3  Antonino        44   40     M      
+ A4  Amelia          79   28     F      
+ A5  Anna            50   29     F      
+ A6  AnnaMaria       41   30     F      
+ A7  Aldo            25   20     M
+ B1  Beatrice        79   30     F      
+ F1  Filippo         26   30     M      
+ F2  Franco          60   20     M      
+ L1  Leonardo        79   30     M      
+ L2  Luigi           50   40     M      
+ L3  Luisa           75   87     F      
+ M1  Marco           11   10     M      
+ M2  Michele         79   30     M      
+ M3  Maria           55   42     F      
+ O1  Olga            30   41     F      
+ S1  Sergio          85   35     M      
+-------------------------------------

@@ -1,0 +1,10 @@
+
+user	root
+mail	root
+admin	root
+sys	root
+user	verdi
+mail	verdi
+user	rossi
+mail	rossi
+mail	mail

@@ -1,0 +1,5 @@
+root	\N
+verdi	Gino Verdi
+rossi	Anna Rossi
+nobody	\N
+mail	\N

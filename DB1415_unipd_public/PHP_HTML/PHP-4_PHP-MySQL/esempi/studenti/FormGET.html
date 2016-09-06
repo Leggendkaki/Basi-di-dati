@@ -1,0 +1,51 @@
+<!-- Uso delle form per la ricerca nel database Univ -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="it" lang="it">
+
+
+<head>
+  <title>Form Studenti - GET</title>
+</head>
+
+<body>
+
+<h3>Ricerca Studenti - Form gestita con Modalit&agrave; GET</h3>
+
+
+<form action="FormManager.php"  method="get">
+
+  <fieldset>
+    <legend>Dati degli studenti da cercare</legend>
+    
+    Cognome: <input type="text" name="cognome" />
+    <br />
+    Matricola: <input type="text" name="matricola" maxlength="6" />
+    <br /><br />
+    
+    Iniziale del nome:
+    <select name="nome">
+      <option>---</option>
+      <option>A-H</option>
+      <option>I-Z</option>
+    </select>
+    <br /><br />
+    
+    Provincia:
+    <input type="radio" name="prov" value="VE" /> VE
+    <input type="radio" name="prov" value="PD" /> PD<br /><br />
+    
+    <input type="checkbox" name="tutor[]" value="HAS" />  Ha un tutor 
+    <input type="checkbox" name="tutor[]" value="IS" /> &Egrave; tutor
+    <br /><br />
+    
+    <textarea name="commento" rows="5" cols="20">Mah ...</textarea>
+    <br /><br />
+    
+    <input type="submit" value="Invia" />
+  </fieldset>
+</form>
+  
+</body>
+</html>

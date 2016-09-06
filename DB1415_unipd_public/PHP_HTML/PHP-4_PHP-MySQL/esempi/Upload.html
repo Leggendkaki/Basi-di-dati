@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="it" lang="it">
+
+<head>
+  <title>File Upload</title>
+</head>
+
+<body>
+    <form enctype="multipart/form-data" action="Upload.php" method="post">
+      <fieldset>
+	<legend></legend>
+
+	Nome del file:
+	
+	<!-- The MAX_FILE_SIZE hidden field (measured in bytes) must
+	     precede the file input field, and its value is the
+	     maximum filesize accepted by PHP. Fooling this setting on
+	     the browser side is quite easy, so never rely on files
+	     with a greater size being blocked by this feature. The
+	     PHP settings for maximum-size, however, cannot be
+	     fooled. This form element should always be used as it
+	     saves users the trouble of waiting for a big file being
+	     transferred only to find that it was too big and the
+	     transfer failed.
+	-->
+	
+	<input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+	<input type="file" name="myfile" />
+	<br />
+	<input type="submit" name="submit" value="Invia" />
+      </fieldset>
+    </form>
+    
+</body>
+</html> 
